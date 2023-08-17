@@ -1,0 +1,10 @@
+<div class="container">
+  <h2>First Post</h2>
+  <ul>
+    <li *ngFor="let blog of blogs">
+      <h3>{{ blog.title }}</h3>
+      <p>{{ blog.text }}</p>
+    </li>
+  </ul>
+  <button (click)="openBlogModal()">Додати блог</button>
+</div>

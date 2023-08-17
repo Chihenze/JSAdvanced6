@@ -1,0 +1,13 @@
+<div class="modal">
+  <div class="BackColor">
+    <h2>Реєстрація</h2>
+    <input placeholder="Ім'я" [(ngModel)]="name">
+    <input placeholder="Електронна пошта" [(ngModel)]="email">
+    <input placeholder="Пароль" type="password" [(ngModel)]="password">
+    <div class="buttons">
+      <button (click)="close()">Закрити</button>
+      <button (click)="register()">Зареєструватися</button>
+
+    </div>
+  </div>
+</div>

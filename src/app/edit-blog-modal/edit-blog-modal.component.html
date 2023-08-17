@@ -1,0 +1,25 @@
+<div class="modal">
+    <div class="BackColor">
+        <div class="modal-header">
+            <h4 class="modal-title">Редагування блогу</h4>
+            <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form (ngSubmit)="saveChanges()" #editForm="ngForm">
+                <div class="form-group">
+                    <label for="editTitle">Заголовок</label>
+                    <input type="text" class="form-control" id="editTitle" name="title" [(ngModel)]="blog.title"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="editText">Текст</label>
+                    <textarea class="form-control" id="editText" name="text" [(ngModel)]="blog.text"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Зберегти</button>
+            </form>
+        </div>
+    </div>
+</div>

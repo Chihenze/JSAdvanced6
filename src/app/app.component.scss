@@ -1,0 +1,82 @@
+.BtnInOut {
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+}
+
+.textLeft {
+    width: 200px;
+    text-align: left;
+    position: relative;
+    height: 0;
+    color: azure;
+    font-size: 30px;
+}
+
+.BtnInOut button {
+    position: relative;
+    top: -20px;
+}
+
+.BtnSigOut {
+    margin: 10px;
+    text-align: center;
+    color: yellow;
+    border: 3px solid yellow;
+    background-color: rgb(39, 39, 39);
+    position: relative;
+    top: -20px;
+}
+.Uname{
+    margin: 10px;
+    position: relative;
+    top: -20px;
+}
+.BtnAdd{
+    text-align: center;
+    color: rgb(5, 209, 5);
+    border: 3px solid rgb(10, 212, 10);
+    background-color: rgb(39, 39, 39);
+    position: relative;
+    top: -20px;
+}
+.AllRig{
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+   
+}
+.FormPosts{
+    width: 95%;
+    margin: 0;
+}
+.TTitle{
+    margin: 0;
+}
+.PostedBy{
+    margin: 0;
+    color: gray;
+    font-size: 15px;
+}
+.EdiDel{
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 10px;
+    position: relative;
+    top: -40px;
+}
+.date{
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0;
+    position: relative;
+    top: -100px;
+}
+.BtnEdi{
+    background-color: yellow;
+    border: 3px solid yellow;
+}
+.BtnDel{
+    background-color: red;
+    border: 3px solid red;
+}
